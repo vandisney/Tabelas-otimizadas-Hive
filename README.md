@@ -34,6 +34,6 @@ Após a criação, vamos analisar a descrição dessa tabela com o comando `desc
 
 ### ✍️ 7- Comparando as tabelas
 * Comparar as tabelas pop, pop_parquet e pop_parquet_snappy no HDFS, para isso deve-se acessar o HDFS com o `docker exec -it namenode bash`.
-> Para realizar essa questão vamos comparar as tabelas, verificando a consistência de cada uma e analisando o conteúdo com o comando `hdfs dfs -ls /user/hive/warehouse/vandisney.db`
+Para realizar essa questão vamos comparar as tabelas, verificando a consistência de cada uma e analisando o conteúdo com o comando `hdfs dfs -ls /user/hive/warehouse/vandisney.db`
 Para verificar os dados e o seus tamanhos, vamos utilizar o comando `hdfs dfs -du -h /user/hive/warehouse/vandisney.db`
 ![imagem6](https://github.com/vandisney/Tabelas-otimizadas-Hive/blob/main/imagens/imagem6.png)
