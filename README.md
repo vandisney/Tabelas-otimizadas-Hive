@@ -15,7 +15,7 @@ O objetivo do projeto é trabalhar com a criação de tabelas otimizadas utiliza
 ![imagem2](https://github.com/vandisney/Tabelas-otimizadas-Hive/blob/main/imagens/imagem2.png)
 
 ###✍️ 3- Verificação da tabela parquet criada.
- Para isso foi necessário fazer um count da tabela pop e na tabela parquet, estas apresentaram o mesmo valor como mostra a figura.
+ Para isso foi necessário contar os registros da tabela pop `select count(*) from pop` e da tabela pop_parquet `select count(*) from pop_parquet`, estas apresentaram o mesmo valor como mostra a figura.
 ![imagem3](https://github.com/vandisney/Tabelas-otimizadas-Hive/blob/main/imagens/imagem3.png)
 
 ###✍️ 4- Selecionar os 5 primeiros registros da tabela pop_parquet.
